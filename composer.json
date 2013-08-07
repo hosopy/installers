@@ -1,22 +1,14 @@
 {
-    "name": "composer/installers",
+    "name": "hosopy/installers",
     "type": "composer-installer",
     "license": "MIT",
-    "description": "A multi-framework Composer library installer",
+    "description": "A multi-framework Composer library installer (forked for fuel-core support)",
     "keywords": [
         "installer", "cakephp", "laravel", "kohana",
         "li3", "lithium", "mako","fuelphp",
         "codeigniter", "symfony", "phpbb", "ppi",
         "joomla", "wordpress", "drupal", "zend",
         "silverstripe", "agl", "TYPO3 Flow", "TYPO3 Neos", "modulework"
-    ],
-    "homepage": "http://composer.github.com/installers/",
-    "authors": [
-        {
-            "name": "Kyle Robinson Young",
-            "email": "kyle@dontkry.com",
-            "homepage": "https://github.com/shama"
-        }
     ],
     "autoload": {
         "psr-0": { "Composer\\Installers\\": "src/" }
